@@ -7,6 +7,7 @@ import Product from './pages/Product'
 import Pricing from './pages/Pricing'
 import Login from './pages/Login'
 import CityList from './components/CityList'
+import City from './components/City'
 import CountryList from './components/CountryList'
 
 const BASE_URL = 'http://localhost:8000'
@@ -41,6 +42,7 @@ function App() {
         <Route path="app" element={<AppLayout />}>
           <Route index element={<CityList cities={cities} loading={loading} />} />
           <Route path="cities" element={<CityList cities={cities} loading={loading} />} />
+          <Route path="cities/:id" element={<City />} />
           <Route path="countries" element={<CountryList cities={cities} loading={loading} />} />
           <Route path="form" element={<p>Form Component</p>} />
         </Route>
