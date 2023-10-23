@@ -15,7 +15,7 @@ const formatDate = (date) =>
     weekday: 'long',
   }).format(new Date(date))
 
-const flagemojiToPNG = (flag) => {
+const flagemojiToPNG = (flag = 'PT') => {
   var countryCode = Array.from(flag, (codeUnit) => codeUnit.codePointAt())
     .map((char) => String.fromCharCode(char - 127397).toLowerCase())
     .join('')
