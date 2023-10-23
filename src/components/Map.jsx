@@ -3,6 +3,7 @@ import { MapContainer, Marker, Popup, TileLayer, useMap, useMapEvents } from 're
 import { useNavigate, useSearchParams } from 'react-router-dom'
 import { useCities } from '../contexts/CitiesContext'
 import { useGeolocation } from '../hooks/useGeolocation'
+import { useUrlPosition } from '../hooks/useUrlPosition'
 import Button from './Button'
 import styles from './Map.module.css'
 
@@ -10,9 +11,7 @@ function Map() {
   const [mapPosition, setMapPosition] = useState([40, 0])
   const { cities } = useCities()
 
-  const [searchParams] = useSearchParams()
-  const mapLat = searchParams.get('lat')
-  const mapLng = searchParams.get('lng')
+  const [mapLat, mapLng] = useUrlPosition()
   const {
     isLoading: isLoadingPosition,
     position: geolocationPosition,
