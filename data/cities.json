@@ -35,66 +35,6 @@
         "lng": 13.376933665713324
       },
       "id": 98443197
-    },
-    {
-      "cityName": "Pag",
-      "country": "Croatia",
-      "emoji": "HR",
-      "date": "2023-10-29T19:26:01.675Z",
-      "notes": "Test Note",
-      "position": {
-        "lat": "44.33956524809713",
-        "lng": "15.205078125000002"
-      },
-      "id": 98443198
-    },
-    {
-      "cityName": "Zagreb",
-      "country": "Croatia",
-      "emoji": "HR",
-      "date": "2023-10-29T19:26:58.663Z",
-      "notes": "Another Note",
-      "position": {
-        "lat": "45.75219336063106",
-        "lng": "16.018066406250004"
-      },
-      "id": 98443199
-    },
-    {
-      "cityName": "Cork",
-      "country": "Ireland",
-      "emoji": "ie",
-      "date": "2023-10-29T19:29:20.182Z",
-      "notes": "Note testing",
-      "position": {
-        "lat": "51.883272964437474",
-        "lng": "-8.415527343750002"
-      },
-      "id": 98443200
-    },
-    {
-      "cityName": "Ravenna",
-      "country": "Italy",
-      "emoji": "it",
-      "date": "2023-10-29T19:35:12.602Z",
-      "notes": "test note",
-      "position": {
-        "lat": "44.402391829093915",
-        "lng": "12.211303710937502"
-      },
-      "id": 98443201
-    },
-    {
-      "cityName": "Stuttgart",
-      "country": "Germany",
-      "emoji": "de",
-      "date": "2023-10-29T19:58:06.494Z",
-      "notes": "",
-      "position": {
-        "lat": "48.785151998043155",
-        "lng": "9.212036132812502"
-      },
-      "id": 98443202
     }
   ]
 }
