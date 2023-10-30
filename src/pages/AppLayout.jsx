@@ -10,7 +10,6 @@ function AppLayout() {
   return (
     <div className={styles.app}>
       <Sidebar />
-
       <Map />
       {isAuthenticated && <User />}
     </div>
